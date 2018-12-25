@@ -1,6 +1,54 @@
 /* Đạt */
 /* Thư */
 /* Tú */
+.motobike{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+/*duong-vien*/
+.vien{
+	border:1px solid orange;
+}
+.motobike img.img{
+	display: block;
+	position: absolute;
+	top:30%;
+	left:43%;
+	overflow: hidden;
+}
+.motobike h4:hover{
+	transform: rotate(720deg);
+	transition: all 1s ease-in-out;
+}
+.motobike img.img:hover{
+	transition: all 1s ease; 
+	transform: scale(1.5);
+}
+.tu .cnt1{
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.tu .cnt1 .text{
+	border-radius: 6px;
+	position: absolute;
+	top: 45%;
+	left: 37%;
+	opacity: 0.8;
+	z-index: 2;
+}
+.tu .cnt1 img.picture{
+	z-index: 1;
+	transition: all 1s ease; 
+}
+.tu .cnt1 img.picture:hover{
+	transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
 /* Tuấn */
 /* Phê */
 @media screen and (max-width: 1200px){
