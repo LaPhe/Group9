@@ -3,6 +3,77 @@
 /* Tú */
 /* Tuấn */
 /* Phê */
+.contact{
+	height: 680px;
+	background: #11663a;
+	box-sizing: border-box;
+}
+.contact .rows1{
+	padding-top: 20px;
+	height: 600px;
+}
+.contact .rows1 p.titles{
+	text-indent: 30px;
+}
+form.forms{
+	width: 100%;
+	background: #23221b;
+	position: absolute;
+	right: 0%;
+	box-sizing: border-box;
+}
+form.forms input{
+	width:85%;
+	border: 0.5px solid orange;
+	box-sizing: border-box;
+	position: absolute;
+	left: 11%;
+	border-left: none;
+	border-radius: 0 5px 5px  0;
+	z-index: 2;
+}
+form.forms .icon-form{
+	margin-left: 5%;
+	border: 0.5px solid orange;
+	box-sizing: border-box;
+	border-right: none;
+	height: 37px;
+	border-radius: 5px;
+	z-index: 1;
+	width: 10%;
+}
+form.forms .form-group1{
+	margin-top: 20px;
+}
+form.forms .message{
+	position: relative;
+}
+form.forms input.messa{
+	border-radius: 0 5px 0 0;
+}
+form.forms textarea.mess{
+	width: 85%;
+	position: absolute;
+	border: 0.5px solid orange;
+	border-top: none;
+	left: 11%;
+	bottom: -224%;
+	z-index: 3;
+	border-radius: 0;
+}
+form.forms button.submit{
+	display: block;
+	margin-top: 15%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+.contact .rows2{
+	height: 80px;
+	background: #eded3b;
+}
+.contact .rows2 .footer{
+	line-height: 80px;
+}
 @media screen and (max-width: 1200px){
 /* Đạt */
 /* Thư */
@@ -16,6 +87,12 @@
 /* Tú */
 /* Tuấn */
 /* Phê */
+	.contact{
+		width: 100%;
+	}
+	form.forms button.submit{
+		margin-top: 17%;
+	}
 }
 @media screen and (max-width: 768px){
 /* Đạt */
@@ -23,6 +100,34 @@
 /* Tú */
 /* Tuấn */
 /* Phê */
+.contact{
+		width: 100%;
+		height: 1220px;
+	}
+	.contact .rows1{
+		height: 1130px;
+	}
+	.contact .contact-info{
+		height: 530px;
+	}
+	.contact .contact-us{
+		height: 600px;
+	}
+	form.forms{
+		width: 90%;
+		right: 5%;
+	}
+	form.forms button.submit{
+		margin-top: 15%;
+	}
+	.contact .rows2{
+		height: 100px;
+	}
+	.contact .rows2 .footer{
+		line-height: 30px;
+		font-size: 16px;
+		margin-top: 20px;
+	}
 }
 @media screen and (max-width: 576px){
 /* Đạt */
@@ -30,4 +135,10 @@
 /* Tú */
 /* Tuấn */
 /* Phê */
+.contact{
+		width: 100%;
+	}
+	.contact .contact-us{
+		margin-top: 4%;
+	}
 }
